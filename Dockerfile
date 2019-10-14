@@ -25,4 +25,6 @@ RUN set -xe \
 
 WORKDIR /etc/stunnel
 
+EXPOSE 8443 8465 8994
+
 CMD ["stunnel", "/config/stunnel.conf"]
